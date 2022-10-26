@@ -441,3 +441,73 @@ img {
     mix-blend-mode: difference;
     /* width: 100vw; */
 }
+
+/*contact us section*/
+.contact-Us {
+    height: 400px;
+    background-color: var(--fc-alternate);
+    mix-blend-mode: difference;
+}
+
+.contact-Us h1 {
+    margin-top: 50px;
+}
+
+.contact-Us-right {
+    /* border: 2px solid #ff440f; */
+    margin-top: 50px;
+
+}
+
+input {
+    background-color: var(--fc-alternate);
+    border: 1px solid black;
+    border-radius: 100px;
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-weight: var(--fw-primary);
+}
+
+input:active {
+    border-color: none;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black;
+}
+
+textarea {
+    background-color: var(--fc-alternate);
+    mix-blend-mode: difference;
+    /* color: #ff440f; */
+    color: black;
+    height: 190px;
+    width: 100%;
+    font-weight: var(--fw-primary);
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+textarea:focus {
+    outline: none;
+}
