@@ -418,3 +418,26 @@ img {
     margin-left: -170px;
     border: 2px solid white;
 }
+
+*Testimonial section*/ .what-client-say {
+    margin-bottom: 100px;
+}
+
+.what-client-say h1 {
+    mix-blend-mode: difference;
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.what-client-say h2 {
+    margin-bottom: 10px;
+    color: var(--fc-alternate);
+    mix-blend-mode: difference;
+
+}
+
+.map {
+    mix-blend-mode: difference;
+    /* width: 100vw; */
+}
