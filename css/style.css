@@ -37,11 +37,11 @@ html {
 
 }
 
+/*General Css*/
 .nav {
     z-index: 2;
     color: white;
 }
-
 
 /* Navbar */
 .navbar {
@@ -211,4 +211,99 @@ img {
     object-fit: cover;
     aspect-ratio: 1/1;
     border-radius: 20px;
+}
+
+/* fade in text animation*/
+.txtfadeIn {
+    -webkit-transition: all 0.8s;
+    transition: all 0.2s;
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+
+.txtfadeIn.inview3 {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.txtfadeIn.inview3:nth-child(1) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.txtfadeIn.inview3:nth-child(2) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.txtfadeIn.inview3:nth-child(3) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.txtfadeIn.inview3:nth-child(4) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+/* fade in image animation of hero section*/
+.fadeIn {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+
+.fadeIn.inview2 {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.fadeIn.inview2:nth-child(1) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.fadeIn.inview2:nth-child(2) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.fadeIn.inview2:nth-child(3) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.fadeIn.inview2:nth-child(4) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.fadeIn.inview2:nth-child(5) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.fadeIn.inview2:nth-child(6) {
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.fadeIn.inview2:nth-child(7) {
+    -webkit-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+}
+
+.fadeIn.inview2:nth-child(8) {
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}
+
+.fadeIn.inview2:nth-child(9) {
+    -webkit-transition-delay: 0.9s;
+    transition-delay: 0.9s;
 }
