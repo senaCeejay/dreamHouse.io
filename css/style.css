@@ -340,3 +340,26 @@ img {
     background-color: var(--hover-color);
     color: white;
 }
+
+/*how it works section*/
+.how-it-works {
+    height: 800px;
+}
+
+.how-it-works svg {
+    mix-blend-mode: difference;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+
+.how-it-works h1 {
+    mix-blend-mode: difference;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 130px;
+}
+
+.how-it-works p {
+    mix-blend-mode: difference;
+    color: white;
+}
