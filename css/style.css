@@ -511,3 +511,14 @@ textarea {
 textarea:focus {
     outline: none;
 }
+
+/*footer*/
+.footer-logo svg {
+    mix-blend-mode: difference;
+    z-index: 2;
+}
+
+.footer-link a {
+    mix-blend-mode: difference;
+    color: white;
+}
