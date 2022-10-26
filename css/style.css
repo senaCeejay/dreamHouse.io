@@ -307,3 +307,36 @@ img {
     -webkit-transition-delay: 0.9s;
     transition-delay: 0.9s;
 }
+
+.design h1 {
+    mix-blend-mode: difference;
+    color: white;
+    font-size: var(--fs-large);
+    font-weight: var(--fw-secondary);
+    margin-top: 200px;
+}
+
+.design p {
+    mix-blend-mode: difference;
+    color: white;
+}
+
+.view-services {
+    mix-blend-mode: difference;
+    border-radius: 100px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: var(--fs-primary);
+    background-color: var(--fc-alternate);
+    color: var(--fc-primary);
+    text-decoration: none;
+    font-weight: var(--fw-primary);
+}
+
+.view-services:hover {
+    background-color: var(--hover-color);
+    color: white;
+}
