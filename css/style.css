@@ -363,3 +363,58 @@ img {
     mix-blend-mode: difference;
     color: white;
 }
+
+/* Services section*/
+.dream-container {
+    margin-bottom: 150px;
+    height: 800px;
+}
+
+.dream-left {
+    padding-top: 80px;
+    text-align: left;
+    /* z-index: 2; */
+    mix-blend-mode: difference;
+    color: white;
+}
+
+.dream-right {
+    z-index: 2;
+}
+
+.dream-right img {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.dream-left button {
+    border-radius: 50%;
+    border: none;
+    background-color: var(--fc-alternate);
+    color: var(--fc-secondary);
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.dream-left button:hover {
+    background-color: var(--hover-color);
+}
+
+.dream-left a {
+    text-decoration: none;
+    color: var(--fc-secondary);
+}
+
+.dream-left a:hover {
+    color: var(--hover-color);
+}
+
+.dream-img-right {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -170px;
+    border: 2px solid white;
+}
