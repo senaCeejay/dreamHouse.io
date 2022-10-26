@@ -38,12 +38,12 @@ html {
 }
 
 /*General Css*/
+/* Navbar */
 .nav {
     z-index: 2;
     color: white;
 }
 
-/* Navbar */
 /* .navbar {
     background-color: var(--fc-secondary);
 } */
@@ -105,6 +105,8 @@ html {
     color: var(--fc-alternate);
     font-size: var(--fs-medium);
 }
+
+
 
 /*Hero Section*/
 .wrapper {
@@ -306,6 +308,69 @@ img {
 .fadeIn.inview2:nth-child(9) {
     -webkit-transition-delay: 0.9s;
     transition-delay: 0.9s;
+}
+
+/*dark mode*/
+.mode-tog {
+    background-color: black;
+    position: absolute;
+    right: 190px;
+    top: 90px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    transition: 1000ms;
+    border-radius: 50%;
+    position: fixed;
+
+}
+
+.mode-tog.active {
+    transition: 1000ms;
+    background-color: white;
+}
+
+
+/* .mode-tog .moon.active {
+    background-color: white;
+    transition: 1000ms;
+    display: none;
+  } */
+
+
+.dark-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 202px;
+    top: 96px;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+}
+
+.dark-mode {
+    position: relative;
+    transform: scale(0);
+    left: 100;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 300vw;
+    height: 300vw;
+    border-radius: 50%;
+    background-color: #161616;
+    transition: 1000ms ease-in-out;
+    display: flex;
+    flex: 0 0 auto;
+}
+
+
+.dark-mode.active {
+    transform: scale(1);
+    transition: 1000ms ease-in-out;
 }
 
 .design h1 {
