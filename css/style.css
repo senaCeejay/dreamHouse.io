@@ -105,3 +105,110 @@ html {
     color: var(--fc-alternate);
     font-size: var(--fs-medium);
 }
+
+/*Hero Section*/
+.wrapper {
+    width: 500px;
+}
+
+section {
+    width: 560px;
+    height: 700px;
+    padding: 2em;
+    display: grid;
+    grid-template-areas:
+        "white1 white1 two white3 white3"
+        "one one two three white6"
+        "one one two six six"
+        "one one five six six"
+        "four four five six six"
+        "four four five nine nine"
+        "four four eight nine nine"
+        "white10 seven eight nine nine"
+        "white14 white14 eight white15 white15";
+    gap: 1em;
+    z-index: 10;
+}
+
+section img {
+    z-index: 2;
+}
+
+h1 {
+    font-weight: 700;
+
+}
+
+.white1 {
+    grid-area: white1;
+}
+
+.two {
+    width: 180px;
+    grid-area: two;
+}
+
+.white3 {
+    grid-area: white3;
+}
+
+.one {
+    width: 180px;
+    grid-area: one;
+}
+
+.three {
+
+    grid-area: three;
+}
+
+.four {
+    width: 180px;
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+    width: 180px;
+
+}
+
+.six {
+    width: 180px;
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+
+}
+
+.eight {
+    width: 180px;
+    grid-area: eight;
+}
+
+.nine {
+    width: 180px;
+    grid-area: nine;
+}
+
+.white10 {
+    grid-area: white10;
+}
+
+.white14 {
+    grid-area: white14;
+}
+
+.white15 {
+    grid-area: white15;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+}
