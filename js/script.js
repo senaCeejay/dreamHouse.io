@@ -39,4 +39,4 @@ const scrollbind = el => el.bind("scroll", function () {
         $(".container").scrollTop(scroll);
 
 });
-scrollbind($(".container"));
+scrollbind((".container"));
