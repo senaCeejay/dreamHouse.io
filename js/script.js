@@ -33,10 +33,10 @@ for (let i = 0; i < txt.length; i++) {
 }
 
 //dark mode
-const scrollbind = el => el.bind("scroll", function () {
-    scroll = $(this).scrollTop();
-    if ($(".container").length > 1)
-        $(".container").scrollTop(scroll);
+let modeToggle = document.querySelector('.mode-tog');
+let darkMode = document.querySelector('.dark-mode');
 
-});
-scrollbind((".container"));
+modeToggle.addEventListener('click', () => {
+    darkMode.classList.toggle('active');
+    modeToggle.classList.toggle('active')
+})
